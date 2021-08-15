@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(62, 62, 70);
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+}
+
+p {
+color: rgba(121, 212, 224, 0.986);
+}
+
+.skills {
+    color:rgba(46, 149, 165, 0.986);
+}
+
+footer {
+ text-align: center;
+ font-size: 10px;
+ color: blanchedalmond;
+ background-color: rgba(121, 212, 224, 0.986);
+
+}
