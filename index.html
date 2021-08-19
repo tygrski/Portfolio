@@ -8,46 +8,73 @@
  <body>
      <!--Header section  -->
     <header>
-         <h1>Travis Tybor: Web Developer & Student 
+        <div class="headingnm"> 
+        <h1>Travis Tybor 
          </h1>
+         </div>
         <nav>
              <ul>
                  <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="#about-me"><span>About Me</span></a>
                 </li>
                  <li>
-                    <a href="#my-work">My Work</a>
+                    <a href="#my-work"><span>My Work</span></a>
                 </li>
                  <li>
-                <a href="#contact">Contact Me</a>
+                <a href="#contact-me"><span>Contact Me</span></a>
                  </li>
              </ul>
         </nav>
     </header>
 
 <!-- Hero section -->
+    <div class="hero-section">
     <section class="hero">
-        <img src="https://via.placeholder.com/150" alt ="cat"/>
+            <img class=hero-img src="css&imgs/images/protfolio-hero.jpg" alt="working at desk">
+            <article class="job-title">
+               Full-Stack<br/> Software Developer
+            </article>
+    </section>
+        
+<!-- my Image section -->
+    <section class="my-pic">
+        <img class="pic-me" src="css&imgs/images/me.jpg" alt ="my pic"/>
     </section>  
+</div>
 
 <!--Main content  -->
     <main>
-        <p> Web Developer and a current student at U.T.'s coding Bootcamp. My skills include HTML 5, CSS and Javascript. </p>
-        <ul class="skills">
-            <li>HTML 5</li>
-            <li>CSS</li>
-            <li>Javascript</li>
         </ul>
-        <ul>
-             <li>Email:<a href="mailto:travis.tybor.tt@gmail.com">My email</a></li>
-             <li>Github<a href="https://github.com/tygrski">My Github</a></li>
-             <li>Portfolio</li>
-        </ul>
+        <section class="main-content">
+            <div>
+                <div class="my-info-container" id="about-me">
+                    <h2 >about me</h2>
+                         <p>Software & Web Developer. My skills include <span class="languages">HTML 5</span>,<span class="languages"> CSS</span> and <span class="languages">Javascript</span>.         Also, currently atending the University Of Texas in Austin.</p>
+                </div>
+                <div class="my-info-container" id="my-work">
+                        <h2  class="section-me">my work</h2>
+                    <div class="runbuddy">
+                        <a  href="https://tygrski.github.io/run-buddy/"><span class="workrb">Run Buddy</span></a>
+                    </div>
+                    <div class="horiseon">
+                        <a href="https://tygrski.github.io/challenge1/"><span class="workhr">Horiseon</a>
+                    </div>
+                    <div class="portfolio">
+                        <a href="https://tygrski.github.io/Portfolio/"><span class="workhr">My portfolio</a>
+                    </div>
+                </div>
+                <div class="my-info-container" id="contact-me">
+                        <h2 >contact me</h2>
+                        <p>1-512-577-9074</p>
+                       <a href ="mailto:travis.tybor.tt@gmail.com">My Email</a> 
+                       <a href= "https://github.com/tygrski">My Github</a>
+                </div>
+            </div>
+        </section>
     </main>  
 <!-- Footer  -->
         <footer>
             <h2>Made by - Travis Tybor - 2021</h2>
-
         </footer>
 </body>
 </html>

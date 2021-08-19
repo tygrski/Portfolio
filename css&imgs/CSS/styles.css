@@ -1,28 +1,188 @@
 body {
-    background-color: rgb(62, 62, 70);
+    background-color: rgb(220, 220, 233);
 }
-
+/* header */
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(58, 54, 34);
+}
+
+.headingnm {
+    background-color:cornflowerblue;
+}
+
+header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    
+}
+header nav ul li {
+    padding: 0 15px;
+    
+}
+
+header nav ul li::before
+{
+    color: beige;
+}
+
+span  {
+    color: cornflowerblue;
 }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cornflowerblue;
+    color: rgb(58, 54, 34);
+}
+/* end of header */
+
+/* hero section */
+.hero-section {
+    display: flex;
 }
 
-p {
-color: rgba(121, 212, 224, 0.986);
+.job-title {
+    color: rgb(8, 7, 1);
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.hero {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+  
 }
 
-.skills {
-    color:rgba(46, 149, 165, 0.986);
+.hero-img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+
 }
 
+.my-pic {
+    margin: 10px;
+    padding: 0px;
+    position: absolute;
+    width:30px;
+    height: 40px;
+    top: 320px;
+    left: 200px;
+}
+
+.pic-me {
+     margin: 0px; 
+    padding: 5px;
+    width: 80px;
+    height: 90px;
+    border-radius: 30px;
+}
+
+.job-title {
+    position: absolute;
+    top: 380px;
+    
+   
+}
+
+/* main section */
+
+.main-content {
+    margin-bottom: 50px;
+    margin: 0 30px;
+}
+
+.my-info-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.my-info-container >h2 {
+    flex: 0 0 15%;
+    border-right: thick solid cornflowerblue;   
+    
+}
+
+.my-info-container p .languages {
+    font-size: 25px;
+}
+
+
+/* .section-me {
+    border-right: thick solid cornflowerblue;
+    width: 150px;
+} */
+
+.about-myself p {
+    color: black;
+    text-align: center;
+    
+}
+
+.runbuddy {
+    background-image: url("../images/RB-hero.jpg");
+    width: 15%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid cornflowerblue 8px;
+    border-radius: 10%;
+    
+}
+
+.horiseon {
+    background-image: url("../images/Horiseon.jpg");
+    width: 12%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid cornflowerblue 8px;
+    border-radius: 10%;
+}
+
+.portfolio {
+    background-image: url("../images/portfolio.png");
+    width: 12%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid cornflowerblue 8px;
+    border-radius: 10%;
+}
+.workrb {
+    color: rgb(246, 250, 16);
+    font-size: 25px;
+}
+.workhr {
+    color: rgb(246, 4, 17);
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* footer */
 footer {
  text-align: center;
  font-size: 10px;
- color: blanchedalmond;
- background-color: rgba(121, 212, 224, 0.986);
-
+ color:  rgb(218, 218, 240);
+ background-color: cornflowerblue;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ margin-top: 15px;
 }
