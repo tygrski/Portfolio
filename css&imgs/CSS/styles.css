@@ -97,14 +97,16 @@ h1 {
 
 /* main section */
 
-.main-content {
-    margin-bottom: 50px;
-    margin: 0 30px;
-}
+.main-content { 
+     margin-bottom: 0px; 
+     margin: 0 30px; 
+ } 
 
 .my-info-container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
+    padding-right: 40px;
     
 }
 
@@ -116,6 +118,11 @@ h1 {
 
 .my-info-container p .languages {
     font-size: 25px;
+}
+
+.my-info-container p {
+    padding-right: 200px;
+    padding-left: 20px;
 }
 
 
@@ -138,7 +145,10 @@ h1 {
     background-size: cover;
     border: solid cornflowerblue 8px;
     border-radius: 10%;
-    
+    opacity: 0.9;
+}
+.runbuddy:hover {
+    opacity: 1.0;
 }
 
 .horiseon {
@@ -149,6 +159,10 @@ h1 {
     background-size: cover;
     border: solid cornflowerblue 8px;
     border-radius: 10%;
+    opacity: 0.9;
+}
+.horiseon:hover {
+opacity: 1.0;
 }
 
 .portfolio {
@@ -159,19 +173,34 @@ h1 {
     background-size: cover;
     border: solid cornflowerblue 8px;
     border-radius: 10%;
+    opacity: 0.8;
+}
+.portfolio:hover {
+    opacity: 1.0;
 }
 .workrb {
     color: rgb(246, 250, 16);
     font-size: 25px;
+    font-weight: bold;
 }
 .workhr {
-    color: rgb(246, 4, 17);
+    color: rgb(12, 42, 46);
     font-size: 25px;
+    font-weight: bold;
+}
+.workme {
+    color: rgb(18, 248, 198);
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
-
-
+.email  {
+    padding-top: 15px;
+}
+.github {
+    padding-top: 15px;
+}
 
 
 /* footer */
@@ -184,5 +213,15 @@ footer {
  left: 0;
  bottom: 0;
  width: 100%;
- margin-top: 15px;
+ 
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+}
+
+/* * MEDIA QUERY FOR TABLETS AND SMALLER */ 
+@media screen and (max-width: 768px) {
+
 }
