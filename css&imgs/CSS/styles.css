@@ -140,7 +140,7 @@ h1 {
 .runbuddy {
     background-image: url("../images/RB-hero.jpg");
     width: 15%;
-    height: 120px;
+    height: 140px;
     background-repeat: no-repeat;
     background-size: cover;
     border: solid cornflowerblue 8px;
@@ -154,7 +154,7 @@ h1 {
 .horiseon {
     background-image: url("../images/Horiseon.jpg");
     width: 12%;
-    height: 100px;
+    height: 120px;
     background-repeat: no-repeat;
     background-size: cover;
     border: solid cornflowerblue 8px;
@@ -168,7 +168,7 @@ opacity: 1.0;
 .portfolio {
     background-image: url("../images/portfolio.png");
     width: 12%;
-    height: 100px;
+    height: 120px;
     background-repeat: no-repeat;
     background-size: cover;
     border: solid cornflowerblue 8px;
@@ -218,10 +218,39 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+ .runbuddy {
+     height: 180px;
+}   
+.horiseon {
+        height: 160px;
+}
+.portfolio {
+    height: 160px;
+}
+}
+/*  MEDIA QUERY FOR TABLETS AND SMALLER */ 
+@media screen and (max-width: 768px) {
+    .runbuddy {
+        height: 220px;
+   }   
+   .horiseon {
+           height: 200px;
+   }
+   .portfolio {
+       height: 200px;
+   }
 
 }
 
-/* * MEDIA QUERY FOR TABLETS AND SMALLER */ 
-@media screen and (max-width: 768px) {
-
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .runbuddy {
+        height: 250px;
+   }   
+   .horiseon {
+           height: 230px;
+   }
+   .portfolio {
+       height: 230px;
+   }
 }
