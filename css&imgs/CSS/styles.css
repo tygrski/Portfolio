@@ -91,8 +91,6 @@ h1 {
 .job-title {
     position: absolute;
     top: 380px;
-    
-   
 }
 
 /* main section */
@@ -117,19 +115,14 @@ h1 {
 }
 
 .my-info-container p .languages {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .my-info-container p {
     padding-right: 200px;
     padding-left: 20px;
+    font-size: 40px;
 }
-
-
-/* .section-me {
-    border-right: thick solid cornflowerblue;
-    width: 150px;
-} */
 
 .about-myself p {
     color: black;
@@ -226,6 +219,9 @@ footer {
 }
 .portfolio {
     height: 160px;
+}
+.my-info-container p {
+    font-size: 40px;
 }
 }
 /*  MEDIA QUERY FOR TABLETS AND SMALLER */ 
