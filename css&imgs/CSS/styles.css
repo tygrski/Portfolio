@@ -149,6 +149,9 @@ h1 {
     border-radius: 10%;
     opacity: 0.9;
 }
+.soccer-finder:hover {
+    opacity: 1.0;
+}
 
 .runbuddy {
     background-image: url("../images/RB-hero.jpg");
