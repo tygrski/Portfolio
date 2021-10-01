@@ -24,7 +24,11 @@ header nav ul  {
 }
 header nav ul li {
     padding: 0 15px;
+  
     
+}
+nav a {
+    text-decoration: none;
 }
 
 header nav ul li::before
@@ -122,12 +126,28 @@ h1 {
     padding-right: 200px;
     padding-left: 20px;
     font-size: 40px;
+   
+
+}
+.my-info-container a {
+    text-decoration: none;
 }
 
 .about-myself p {
     color: black;
     text-align: center;
     
+}
+
+.soccer-finder {
+    background-image: url("../images/Screenshot\ \(253\).png");
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid cornflowerblue 8px;
+    border-radius: 10%;
+    opacity: 0.9;
 }
 
 .runbuddy {
@@ -142,6 +162,9 @@ h1 {
 }
 .runbuddy:hover {
     opacity: 1.0;
+}
+.runbuddy h3 {
+    text-decoration: none;
 }
 
 .horiseon {
@@ -190,6 +213,7 @@ opacity: 1.0;
 
 .email  {
     padding-top: 15px;
+    
 }
 .github {
     padding-top: 15px;
